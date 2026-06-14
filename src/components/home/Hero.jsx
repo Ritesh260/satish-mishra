@@ -2,114 +2,89 @@ import Button from "../common/Button";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-[var(--background)]">
-      {/* Background Glow */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 left-0 md:left-20 w-56 md:w-72 h-56 md:h-72 bg-[var(--secondary)]/10 blur-[120px]" />
-        <div className="absolute bottom-20 right-0 md:right-20 w-56 md:w-72 h-56 md:h-72 bg-[var(--secondary)]/10 blur-[120px]" />
-      </div>
+    <>
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
 
-      <div className="max-w-7xl mx-auto px-5 md:px-6 pt-28 md:pt-24 pb-16 relative z-10 w-full">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage:
+              "url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2000&auto=format&fit=crop')",
+          }}
+        />
 
-          {/* Left Content */}
-          <div className="text-center lg:text-left order-2 lg:order-1">
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/90" />
 
-            <span className="text-[var(--secondary)] uppercase tracking-[3px] text-xs md:text-sm">
-              Senior Advocate • Bombay High Court
-            </span>
+        {/* Content */}
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white">
 
-            <h1 className="heading-font text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mt-5 leading-tight">
-              Justice.
-              <br />
-              Integrity.
-              <br />
-              Results.
-            </h1>
+          <span className="inline-block border border-[#C9A227]/40 px-5 py-2 rounded-full text-sm tracking-[3px] uppercase text-[#C9A227]">
+            Senior Advocate • Bombay High Court
+          </span>
 
-            <p className="mt-6 md:mt-8 text-slate-300 text-base md:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Providing trusted legal representation,
-              strategic counsel, and dedicated advocacy
-              for individuals, families, and businesses
-              across Mumbai and beyond.
-            </p>
+          <h1 className="heading-font mt-8 text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold">
+            Adv. Satish Mishra
+          </h1>
 
-            <div className="flex flex-col sm:flex-row gap-4 mt-8 md:mt-10 justify-center lg:justify-start">
+          <p className="mt-5 text-xl md:text-2xl text-slate-300">
+            Justice • Integrity • Excellence
+          </p>
 
-              <Button className="w-full sm:w-auto">
-                Book Consultation
-              </Button>
+          <p className="max-w-3xl mx-auto mt-8 text-slate-400 text-base md:text-lg leading-relaxed">
+            Providing strategic legal counsel and strong courtroom
+            representation with over 25 years of experience handling
+            complex legal matters before the Bombay High Court and
+            various judicial forums.
+          </p>
 
-              <Button
-                variant="secondary"
-                className="w-full sm:w-auto"
-              >
-                Call Now
-              </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
 
-            </div>
+            <Button>
+              Book Consultation
+            </Button>
+
+            <Button variant="secondary">
+              Call Now
+            </Button>
 
           </div>
 
-          {/* Right Image */}
-          <div className="flex justify-center order-1 lg:order-2">
+        </div>
+      </section>
 
-            <div className="relative">
+      {/* Floating Stats */}
+      {/* <div className="relative z-20 -mt-16 px-5">
+        <div className="max-w-6xl mx-auto">
 
-              <div className="absolute -inset-3 md:-inset-4 rounded-[24px] md:rounded-[30px] border border-[var(--secondary)]/40"></div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
 
-              <img
-                src="/assets/advocate.png"
-                alt="Advocate"
-                className="
-                  w-[280px]
-                  sm:w-[340px]
-                  md:w-[420px]
-                  lg:w-[500px]
-                  h-[380px]
-                  sm:h-[460px]
-                  md:h-[560px]
-                  lg:h-[650px]
-                  object-cover
-                  rounded-[24px]
-                  md:rounded-[30px]
-                "
-              />
+            <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
+              <h3 className="text-4xl font-bold text-black">25+</h3>
+              <p className="text-gray-600 mt-2">
+                Years Experience
+              </p>
+            </div>
 
-              {/* Experience Card */}
-              <div
-                className="
-                  absolute
-                  bottom-4
-                  left-4
-                  md:bottom-6
-                  md:left-6
-                  bg-slate-900/90
-                  backdrop-blur-md
-                  border
-                  border-slate-700
-                  rounded-2xl
-                  px-4
-                  py-3
-                  md:px-6
-                  md:py-4
-                "
-              >
-                <h3 className="text-xl md:text-2xl font-bold">
-                  25+
-                </h3>
+            <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
+              <h3 className="text-4xl font-bold text-black">1000+</h3>
+              <p className="text-gray-600 mt-2">
+                Cases Handled
+              </p>
+            </div>
 
-                <p className="text-slate-400 text-xs md:text-sm">
-                  Years of Experience
-                </p>
-              </div>
-
+            <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
+              <h3 className="text-4xl font-bold text-black">Bombay</h3>
+              <p className="text-gray-600 mt-2">
+                High Court Practice
+              </p>
             </div>
 
           </div>
 
         </div>
-      </div>
-    </section>
+      </div> */}
+    </>
   );
 }

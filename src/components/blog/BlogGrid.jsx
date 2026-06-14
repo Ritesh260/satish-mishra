@@ -27,7 +27,7 @@ const posts = [
 
 export default function BlogGrid() {
   return (
-    <section className="section-padding bg-[var(--background)]">
+    <section className="section-padding bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -35,7 +35,17 @@ export default function BlogGrid() {
           {posts.map((post) => (
             <article
               key={post.title}
-              className="bg-slate-900 rounded-3xl overflow-hidden border border-slate-800"
+              className="
+                bg-white
+                rounded-3xl
+                overflow-hidden
+                border
+                border-gray-100
+                shadow-sm
+                hover:shadow-xl
+                transition-all
+                duration-300
+              "
             >
 
               <img
@@ -46,19 +56,19 @@ export default function BlogGrid() {
 
               <div className="p-6">
 
-                <span className="text-[var(--secondary)] text-sm">
+                <span className="text-[#C9A227] text-sm font-medium">
                   {post.category}
                 </span>
 
-                <h3 className="text-2xl mt-3">
+                <h3 className="text-2xl mt-3 text-black">
                   {post.title}
                 </h3>
 
-                <p className="text-slate-400 mt-4">
+                <p className="text-gray-600 mt-4">
                   Read detailed legal insights and practical guidance.
                 </p>
 
-                <button className="mt-6 text-[var(--secondary)]">
+                <button className="mt-6 text-[#C9A227] font-medium">
                   Read Article →
                 </button>
 

@@ -9,9 +9,9 @@ export default function SectionHeading({
         {subtitle}
       </p>
 
-      <h2 className="heading-font text-4xl md:text-5xl font-bold">
-        {title}
-      </h2>
+     <h2 className="heading-font text-4xl md:text-5xl font-bold text-black">
+  {title}
+</h2>
     </div>
   );
 }

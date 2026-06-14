@@ -13,7 +13,7 @@ export default function ContactView() {
 
       <ContactHero />
 
-      <section className="section-padding bg-slate-950">
+      <section className="section-padding bg-gradient-to-b from-white to-[#F8FAFC]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12">
 

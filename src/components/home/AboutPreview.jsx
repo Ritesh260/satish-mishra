@@ -3,64 +3,119 @@ import Button from "../common/Button";
 
 export default function AboutPreview() {
   return (
-    <section className="section-padding bg-slate-950">
+    <section className="section-padding bg-white">
       <div className="max-w-7xl mx-auto px-6">
+
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          
-          {/* Image */}
-          <div>
+
+          {/* Image Side */}
+          <div className="relative">
+
+            <div className="absolute "/>
+
             <img
-              src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop"
+              src="/assets/advocate.png"
               alt="Senior Advocate"
-              className="rounded-3xl w-full h-[600px] object-cover"
+              className="
+                w-full
+                h-[550px]
+                object-cover
+                rounded-3xl
+                shadow-2xl
+              "
             />
+
+            {/* Floating Experience Card */}
+            <div
+              className="
+                absolute
+                bottom-6
+                right-6
+                bg-white
+                shadow-xl
+                rounded-2xl
+                px-6
+                py-4
+              "
+            >
+              <h3 className="text-3xl font-bold text-black">
+                25+
+              </h3>
+
+              <p className="text-gray-600 text-sm">
+                Years Experience
+              </p>
+            </div>
+
           </div>
 
-          {/* Content */}
+          {/* Content Side */}
           <div>
+
             <SectionHeading
               center={false}
               subtitle="About Advocate"
               title="Experienced Legal Counsel With Proven Expertise"
+              textColor="text-black"
             />
 
-            <p className="mt-8 text-slate-300 leading-relaxed">
-              With more than two decades of experience
-              before various courts and legal forums,
-              our practice is committed to providing
-              exceptional legal representation grounded
-              in integrity, professionalism, and results.
+            <p className="mt-8 text-gray-600 leading-relaxed text-lg">
+              With more than two decades of experience before
+              various courts and legal forums, we provide
+              trusted legal representation focused on protecting
+              client interests and delivering effective solutions.
             </p>
 
-            <p className="mt-6 text-slate-300 leading-relaxed">
-              We assist clients in civil litigation,
-              criminal defense, property disputes,
-              corporate advisory matters, and legal
-              documentation, ensuring every case
-              receives strategic attention and
-              dedicated advocacy.
+            <p className="mt-6 text-gray-600 leading-relaxed text-lg">
+              From civil and criminal litigation to property,
+              corporate, and documentation matters, every case
+              receives strategic attention, careful preparation,
+              and dedicated advocacy.
             </p>
 
+            {/* Stats */}
             <div className="grid grid-cols-2 gap-6 mt-10">
-              <div>
-                <h4 className="text-[#C9A227] text-3xl font-bold">
+
+              <div
+                className="
+                  bg-gray-50
+                  rounded-2xl
+                  p-6
+                  shadow-md
+                  hover:shadow-xl
+                  transition-all
+                  duration-300
+                "
+              >
+                <h4 className="text-[#C9A227] text-4xl font-bold">
                   25+
                 </h4>
 
-                <p className="text-slate-400">
+                <p className="text-gray-600 mt-2">
                   Years Experience
                 </p>
               </div>
 
-              <div>
-                <h4 className="text-[#C9A227] text-3xl font-bold">
+              <div
+                className="
+                  bg-gray-50
+                  rounded-2xl
+                  p-6
+                  shadow-md
+                  hover:shadow-xl
+                  transition-all
+                  duration-300
+                "
+              >
+                <h4 className="text-[#C9A227] text-4xl font-bold">
                   1500+
                 </h4>
 
-                <p className="text-slate-400">
+                <p className="text-gray-600 mt-2">
                   Cases Resolved
                 </p>
               </div>
+
             </div>
 
             <div className="mt-10">
@@ -68,9 +123,11 @@ export default function AboutPreview() {
                 Learn More
               </Button>
             </div>
+
           </div>
 
         </div>
+
       </div>
     </section>
   );

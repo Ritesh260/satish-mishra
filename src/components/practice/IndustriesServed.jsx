@@ -9,10 +9,10 @@ export default function IndustriesServed() {
   ];
 
   return (
-    <section className="section-padding bg-slate-950">
+    <section className="section-padding bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
-        <h2 className="heading-font text-5xl text-center">
+        <h2 className="heading-font text-5xl text-center text-black">
           Industries Served
         </h2>
 
@@ -21,7 +21,21 @@ export default function IndustriesServed() {
           {industries.map((industry) => (
             <div
               key={industry}
-              className="border border-slate-800 rounded-2xl p-8 text-center"
+              className="
+                bg-[#F8FAFC]
+                border
+                border-gray-100
+                rounded-2xl
+                p-8
+                text-center
+                text-black
+                font-medium
+                shadow-sm
+                hover:shadow-lg
+                hover:-translate-y-1
+                transition-all
+                duration-300
+              "
             >
               {industry}
             </div>

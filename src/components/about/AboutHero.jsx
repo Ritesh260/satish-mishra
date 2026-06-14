@@ -1,23 +1,43 @@
 export default function AboutHero() {
   return (
-    <section className="pt-40 pb-24 bg-slate-950">
-      <div className="max-w-7xl mx-auto px-6 text-center">
-        <p className="text-[#C9A227] uppercase tracking-[4px]">
-          About Advocate
-        </p>
+    <section className="relative pt-40 pb-24 overflow-hidden">
 
-        <h1 className="heading-font text-5xl md:text-7xl mt-6">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1589994965851-a8f479c573a9?q=80&w=2000&auto=format&fit=crop')",
+        }}
+      />
+
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/75" />
+
+      {/* Gold Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/80" />
+
+      {/* Content */}
+      <div className="relative z-10 max-w-7xl mx-auto px-6 text-center text-white">
+
+        <span className="inline-block px-5 py-2 border border-[#C9A227]/40 rounded-full text-sm uppercase tracking-[3px] text-[#C9A227]">
+          About Advocate
+        </span>
+
+        <h1 className="heading-font text-5xl md:text-7xl mt-6 font-bold leading-tight">
           Trusted Legal
           <br />
           Excellence
         </h1>
 
-        <p className="max-w-3xl mx-auto mt-8 text-slate-400">
-          Dedicated to delivering exceptional legal
-          representation with professionalism,
-          integrity, and strategic expertise.
+        <p className="max-w-3xl mx-auto mt-8 text-slate-300 text-lg leading-relaxed">
+          Providing strategic legal counsel, courtroom excellence,
+          and dedicated representation backed by years of experience
+          before the Bombay High Court and various judicial forums.
         </p>
+
       </div>
+
     </section>
   );
 }

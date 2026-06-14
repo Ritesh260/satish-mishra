@@ -17,7 +17,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed w-full z-50 backdrop-blur-md bg-slate-950/90 border-b border-slate-800">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-black/95 backdrop-blur-xl border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
         <Link href="/">
           <h2 className="heading-font text-2xl font-bold">
@@ -92,7 +92,7 @@ export default function Navbar() {
           h-screen
           w-[85%]
           max-w-[350px]
-          bg-slate-950
+          bg-black/95
           border-l
           border-slate-800
           z-50
