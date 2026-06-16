@@ -1,6 +1,6 @@
 export default function AboutHero() {
   return (
-    <section className="relative pt-40 pb-24 overflow-hidden">
+    <section className="relative pt-28 md:pt-36 lg:pt-40 pb-16 md:pb-20 lg:pb-24 overflow-hidden min-h-[60vh] flex items-center">
 
       {/* Background Image */}
       <div
@@ -11,12 +11,11 @@ export default function AboutHero() {
         }}
       />
 
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/75" />
+     {/* Dark Overlay */}
+<div className="absolute inset-0 bg-black/40" />
 
-      {/* Gold Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/80" />
-
+{/* Gold Gradient Overlay */}
+<div className="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-black/70" />
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 text-center text-white">
 

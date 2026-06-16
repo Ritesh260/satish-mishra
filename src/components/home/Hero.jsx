@@ -20,7 +20,7 @@ export default function Hero() {
         {/* Content */}
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white">
 
-          <span className="inline-block border border-[#C9A227]/40 px-5 py-2 rounded-full text-sm tracking-[3px] uppercase text-[#C9A227]">
+          <span className="inline-block border border-[#C9A227]/40 px-5 py-2 rounded-full text-sm tracking-[3px] uppercase text-[#C9A227] mt-8">
             Senior Advocate • Bombay High Court
           </span>
 

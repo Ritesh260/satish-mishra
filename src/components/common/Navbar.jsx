@@ -20,10 +20,11 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-black/95 backdrop-blur-xl border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
         <Link href="/">
-          <h2 className="heading-font text-2xl font-bold">
-            Advocate
-            <span className="gold-text">.</span>
-          </h2>
+           <img
+  src="/assets/logo2.png"
+  alt="Advocate Satish Mishra"
+  className="h-20 w-auto"
+/>
         </Link>
 
         <div className="hidden md:flex gap-8">
@@ -102,10 +103,11 @@ export default function Navbar() {
         {/* Header */}
         <div className="flex items-center justify-between p-6 border-b border-slate-800">
 
-          <h2 className="heading-font text-2xl">
-            Advocate
-            <span className="gold-text">.</span>
-          </h2>
+          <img
+  src="/assets/logo2.png"
+  alt="Advocate Satish Mishra"
+  className="h-20 w-auto"
+/>
 
           <button
             onClick={() => setOpen(false)}

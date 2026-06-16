@@ -44,9 +44,9 @@ export default function ScrollToTop() {
         w-12
         h-12
         rounded-full
-        bg-slate-800
+        bg-black
         border
-        border-slate-700
+        border-white-700
         flex
         items-center
         justify-center

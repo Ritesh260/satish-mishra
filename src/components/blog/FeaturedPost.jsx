@@ -1,7 +1,7 @@
 export default function FeaturedPost() {
   return (
     <section className="pb-20 bg-[#F8FAFC]">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6 ">
 
         <div
           className="
@@ -15,6 +15,7 @@ export default function FeaturedPost() {
             border
             border-gray-100
             shadow-sm
+            
           "
         >
 
@@ -22,7 +23,7 @@ export default function FeaturedPost() {
           <img
             src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1200&auto=format&fit=crop"
             alt="Legal Article"
-            className="w-full h-full object-cover min-h-[400px]"
+            className="w-full h-full object-cover min-h-[400px] mt-10"
           />
 
           {/* Content */}
