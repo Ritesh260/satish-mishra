@@ -1,12 +1,19 @@
+'use client'
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-black border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-4 gap-10">
           <div>
-            <h3 className="heading-font text-2xl">
-              Advocate
-            </h3>
+           <Link href="/">
+           <img
+  src="/assets/logo2.png"
+  alt="Advocate Satish Mishra"
+  className="h-20 w-auto"
+/>
+        </Link>
 
             <p className="mt-4 text-slate-400">
               Trusted legal representation
