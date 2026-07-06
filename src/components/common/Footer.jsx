@@ -54,9 +54,25 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-800 mt-10 pt-6 text-center text-slate-500">
-          © 2026 All Rights Reserved
-        </div>
+       <div className="border-t border-slate-800 mt-10 pt-6 text-center text-slate-500">
+
+  <p>
+    © 2026 Advocate Satish Mishra. All Rights Reserved.
+  </p>
+
+  <p className="mt-2 text-sm">
+    Designed & Developed by{" "}
+    <a
+      href="https://ritesh-mali-portfolio.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C9A227] hover:text-white transition-colors"
+    >
+      Ritesh Mali
+    </a>
+  </p>
+
+</div>
       </div>
     </footer>
   );

@@ -9,6 +9,7 @@ import WhyChooseUs from "@/components/home/WhyChooseUs";
 import ConsultationProcess from "@/components/home/ConsultationProcess";
 import Testimonials from "@/components/home/Testimonials";
 import CTA from "@/components/home/CTA";
+// import LegalTeam from "@/components/home/LegalTeam";
 // import WhatsAppButton from "@/components/common/WhatsAppButton";
 export default function HomeView() {
   return (
@@ -17,6 +18,7 @@ export default function HomeView() {
       <Hero />
       <Stats />
       <AboutPreview />
+      {/* <LegalTeam /> */}
       <PracticePreview />
       <WhyChooseUs />
       <ConsultationProcess />

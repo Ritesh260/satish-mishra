@@ -8,7 +8,7 @@ import Education from "@/components/about/Education";
 import Values from "@/components/about/Values";
 import Timeline from "@/components/about/Timeline";
 import CTA from "@/components/home/CTA";
-
+import LegalTeam from "@/components/home/LegalTeam";
 export default function AboutView() {
   return (
     <>
@@ -16,6 +16,7 @@ export default function AboutView() {
 
       <AboutHero />
       <AdvocateProfile />
+      <LegalTeam />
       <Achievements />
       <Education />
       <Values />
