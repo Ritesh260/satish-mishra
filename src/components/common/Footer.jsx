@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
            <Link href="/">
            <img
-  src="/assets/logo2.png"
+  src="/assets/footor.jpeg"
   alt="Advocate Satish Mishra"
   className="h-20 w-auto"
 />

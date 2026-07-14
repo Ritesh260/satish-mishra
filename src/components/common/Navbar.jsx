@@ -22,9 +22,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
         <Link href="/">
            <img
-  src="/assets/logo2.png"
+  src="/assets/logo.jpeg"
   alt="Advocate Satish Mishra"
-  className="h-20 w-auto"
+  className="h-20 w-auto -ml-4"
 />
         </Link>
 
@@ -105,9 +105,9 @@ export default function Navbar() {
         <div className="flex items-center justify-between p-6 border-b border-slate-800">
 
           <img
-  src="/assets/logo2.png"
+  src="/assets/logo.jpeg"
   alt="Advocate Satish Mishra"
-  className="h-20 w-auto"
+  className="h-14 w-auto -ml-4"
 />
 
           <button
