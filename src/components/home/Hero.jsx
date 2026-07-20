@@ -1,5 +1,5 @@
 import Button from "../common/Button";
-
+import Link from "next/link";
 export default function Hero() {
   return (
     <>
@@ -41,50 +41,28 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
 
-            <Button>
-              Book Consultation
-            </Button>
+             <Link href="/contact">
 
+                <Button className="flex items-center gap-2">
+
+                  Book Consultation
+
+                </Button>
+
+              </Link>
+
+           <a href="tel:+919323651498">
             <Button variant="secondary">
-              Call Now
+               Call Now
             </Button>
+          </a>
 
           </div>
 
         </div>
       </section>
 
-      {/* Floating Stats */}
-      {/* <div className="relative z-20 -mt-16 px-5">
-        <div className="max-w-6xl mx-auto">
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-
-            <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
-              <h3 className="text-4xl font-bold text-black">25+</h3>
-              <p className="text-gray-600 mt-2">
-                Years Experience
-              </p>
-            </div>
-
-            <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
-              <h3 className="text-4xl font-bold text-black">1000+</h3>
-              <p className="text-gray-600 mt-2">
-                Cases Handled
-              </p>
-            </div>
-
-            <div className="bg-white rounded-3xl shadow-xl p-8 text-center">
-              <h3 className="text-4xl font-bold text-black">Bombay</h3>
-              <p className="text-gray-600 mt-2">
-                High Court Practice
-              </p>
-            </div>
-
-          </div>
-
-        </div>
-      </div> */}
+     
     </>
   );
 }
