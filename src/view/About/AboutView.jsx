@@ -19,8 +19,8 @@ export default function AboutView() {
       <LegalTeam />
       <Achievements />
       <Education />
-      <Values />
-      <Timeline />
+      {/* <Values /> */}
+      {/* <Timeline /> */}
       <CTA />
 
       <Footer />
