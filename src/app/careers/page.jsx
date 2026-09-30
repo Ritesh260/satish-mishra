@@ -1,4 +1,4 @@
-import CareersView from "@/view/Careers/CareersView";
+import CareersView from "@/view/careers/CareersView";
 
 export default function CareersPage() {
   return <CareersView />;
