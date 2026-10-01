@@ -89,7 +89,7 @@ export default function CareersView() {
             <form
               className="
                 bg-white
-                rounded-[30px]
+                rounded-[1px]
                 p-7
                 md:p-10
                 shadow-xl

@@ -5,7 +5,7 @@ export default function OfficeHours() {
         bg-white
         border
         border-gray-200
-        rounded-3xl
+        rounded-1xl
         p-8
         mt-8
         shadow-sm

@@ -40,7 +40,7 @@ export default function Testimonials() {
               key={item.name}
               className="
                 bg-white
-                rounded-3xl
+                rounded-1xl
                 p-8
                 shadow-md
                 border

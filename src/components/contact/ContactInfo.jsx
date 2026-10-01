@@ -29,7 +29,7 @@ export default function ContactInfo() {
             bg-white
             border
             border-gray-200
-            rounded-2xl
+            rounded-1xl
             p-6
             shadow-sm
             transition-all
@@ -42,7 +42,7 @@ export default function ContactInfo() {
             className="
               w-12
               h-12
-              rounded-xl
+              rounded-1xl
               bg-[#C9A227]/10
               text-[#C9A227]
               flex

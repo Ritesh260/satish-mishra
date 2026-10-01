@@ -1,6 +1,6 @@
 import SectionHeading from "../common/SectionHeading";
 import Button from "../common/Button";
-
+import Link from "next/link";
 export default function AboutPreview() {
   return (
     <section className="section-padding bg-white">
@@ -130,9 +130,11 @@ export default function AboutPreview() {
 
             {/* Button */}
             <div className="mt-10">
-              <Button>
-                Learn More
-              </Button>
+              <Link href="/about">
+  <Button>
+    Learn More
+  </Button>
+</Link>
             </div>
 
             {/* Legal Team - Mobile */}

@@ -24,7 +24,7 @@ export default function ProcessSection() {
               className="
                 text-center
                 bg-white
-                rounded-2xl
+                rounded-1xl
                 p-6
                 border
                 border-gray-100

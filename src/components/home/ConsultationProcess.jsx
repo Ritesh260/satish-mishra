@@ -26,7 +26,7 @@ export default function ConsultationProcess() {
               key={step}
               className="
                 bg-white
-                rounded-3xl
+                rounded-1xl
                 p-6
                 shadow-md
                 border

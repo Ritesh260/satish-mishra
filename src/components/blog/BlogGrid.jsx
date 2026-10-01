@@ -37,7 +37,7 @@ export default function BlogGrid() {
               key={post.title}
               className="
                 bg-white
-                rounded-3xl
+                rounded-1xl
                 overflow-hidden
                 border
                 border-gray-100

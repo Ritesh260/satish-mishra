@@ -17,7 +17,7 @@ export default function Education() {
           <div
             className="
               bg-white
-              rounded-3xl
+              rounded-1xl
               p-8
               border
               border-gray-100

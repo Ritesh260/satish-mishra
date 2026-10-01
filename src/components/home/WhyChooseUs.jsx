@@ -42,7 +42,7 @@ export default function WhyChooseUs() {
               key={item.title}
               className="
                 bg-white
-                rounded-3xl
+                rounded-1xl
                 p-8
                 shadow-md
                 border

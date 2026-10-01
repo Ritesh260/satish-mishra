@@ -25,7 +25,7 @@ export default function IndustriesServed() {
                 bg-[#F8FAFC]
                 border
                 border-gray-100
-                rounded-2xl
+                rounded-1xl
                 p-8
                 text-center
                 text-black

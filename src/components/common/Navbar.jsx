@@ -14,6 +14,7 @@ export default function Navbar() {
     { name: "Practice Areas", href: "/practice-areas" },
     // { name: "FAQ", href: "/faq" },
     { name: "Blog", href: "/blog" },
+    { name: "Important Links", href: "/important-links" },
     { name: "Careers", href: "/careers" },
     { name: "Contact", href: "/contact" },
   ];

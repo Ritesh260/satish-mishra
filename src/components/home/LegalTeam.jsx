@@ -53,7 +53,7 @@ export default function LegalTeam() {
                 className="
                   relative
                   overflow-hidden
-                  rounded-t-3xl
+                  rounded-t-1xl
                   h-[420px]
                   bg-black
                   shadow-lg
@@ -118,7 +118,7 @@ export default function LegalTeam() {
               <div
                 className="
                   bg-white
-                  rounded-b-3xl
+                  rounded-b-1xl
                   border
                   border-gray-100
                   border-t-0
